@@ -1,0 +1,138 @@
+/*timeline*/
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0;
+  }
+  
+  .timeline-item {
+    padding: 20px;
+    border-left: 2px solid #333;
+    margin-bottom: 20px;
+  }
+  
+  .timeline-date {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .timeline-content {
+    padding-left: 30px;
+  }
+  
+  .timeline-content h3 {
+    margin-top: 0;
+  }
+  
+  /* Style the first timeline item */
+  .timeline-item:first-child {
+    margin-top: 0;
+  }
+  
+  /* Style the last timeline item */
+  .timeline-item:last-child {
+    margin-bottom: 0;
+  }
+  /*footer*/
+  footer {
+    background-color:#0C0C0C;
+    color: #fff;
+    padding: 40px 20px;
+    display: flex;
+    justify-content:space-around;
+    height: 250px;
+}
+
+.footer-content {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.footer-content h2 {
+    margin-top: 0;
+    padding-bottom: 30px;
+    color: #d7d4d4;
+}
+
+.footer-content p {
+    margin-bottom: 10px;
+    color: #b0b0b0;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    padding-right: 150px;
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+.social{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    
+}
+a{
+  color: #cac3c3;
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+  padding-left: 100px;
+}
+.follow{
+  padding-left: 85px;
+  font-size: 20px;
+  color: #b0b0b0;
+}
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+nav {
+    background-color: #0C0C0C;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: #f8f6f3;
+    text-align: left;
+    font-family: cursive;
+    font-style: italic;
+    font-size: x-large;
+}
+
