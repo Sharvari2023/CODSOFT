@@ -361,3 +361,303 @@ button{
   padding-left: 50px;
   padding-right: 50px;
 }
+/* For screens smaller than 1200px */
+@media (max-width: 1200px) {
+  .right1 {
+    width: 70vw;
+    margin-right: 5px;
+  }
+}
+
+/* For screens smaller than 992px */
+@media (max-width: 992px) {
+  .right1 {
+    width: 80vw;
+  }
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+  .landing-pg {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .right1 {
+    width: 90vw;
+    margin-top: 20px;
+  }
+
+  .shivaji {
+    width: 50px;
+    height: 50px;
+    font-size: small;
+  }
+
+  .img-in-circle {
+    width: 200px;
+    height: 200px;
+    margin-left: 0;
+  }
+
+  .intro-in-short {
+    padding: 20px;
+  }
+
+  .follow {
+    padding-left: 0;
+  }
+
+  .footer-links ul {
+    padding-right: 0;
+  }
+
+  .footer-content {
+    max-width: 250px;
+    text-align: center;
+  }
+
+  .footer-content h2 {
+    font-size: 18px;
+  }
+
+  .footer-links li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .landing-pg .word {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .switch-label {
+    margin-bottom: 20px;
+  }
+
+  .switch-label input {
+    display: none;
+  }
+
+  .slider {
+    width: 50px;
+  }
+
+  .slider:before {
+    height: 18px;
+    width: 18px;
+    left: 2px;
+    bottom: 2px;
+  }
+
+  .timeline-date {
+    padding-left: 15px;
+  }
+
+  .timeline-content {
+    padding-left: 20px;
+  }
+
+  .h1 {
+    font-size: 20px;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .para {
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .s1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left {
+    width: 80%;
+    margin-left: 0;
+  }
+
+  .right {
+    width: 80%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .img1 {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* For screens smaller than 576px */
+@media (max-width: 576px) {
+  .landing-pg {
+    margin-top: 10px;
+  }
+
+  .img-in-circle {
+    width: 250px;
+    height: 250px;
+    margin-left: 23%;
+  }
+
+  .intro-in-short {
+    padding: 10px;
+    font-size: small;
+  }
+
+  .footer-links ul {
+    padding-right: 0;
+  }
+
+  .footer-content {
+    max-width: 200px;
+    text-align: center;
+  }
+
+  .footer-content h2 {
+    font-size: 16px;
+  }
+
+  .footer-links li {
+    display: block;
+    margin: 5px 0;
+  }
+
+  .logo {
+    font-size: small;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .landing-pg .word {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .switch-label {
+    margin-bottom: 10px;
+  }
+
+  .switch-label input {
+    display: none;
+  }
+
+  .slider {
+    width: 40px;
+  }
+
+  .slider:before {
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+  }
+
+  .timeline-date {
+    padding-left: 10px;
+  }
+
+  .timeline-content {
+    padding-left: 15px;
+  }
+
+  .h1 {
+    font-size: 18px;
+    width: 250px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .para {
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .s1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .left {
+    width: 90%;
+  }
+
+  .right {
+    width: 90%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .img1 {
+    width: 100%;
+    height: auto;
+  }
+  nav {
+    
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+    height: 100px;
+}
+nav a{
+  height: 5px;
+  
+  padding-bottom: 30px;
+  text-decoration: none;
+}
+
+
+.logo{
+    padding-left: 0px;
+    color: #edebe7;
+    text-align: left;
+    font-family: cursive;
+    font-style: italic;
+    font-size:medium;
+}
+.shivaji{
+  
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 5px;
+  
+  
+}
+.word{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+footer {
+  
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  height: 1000px;
+ 
+}
+
+
+}
